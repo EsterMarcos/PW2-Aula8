@@ -8,13 +8,15 @@ import { InterpolationBindingComponent } from './interpolation-binding/interpola
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import {FormsModule} from '@angular/forms';
 import { formArrayNameProvider } from '@angular/forms/src/directives/reactive_directives/form_group_name';
+import { NgIfComponent } from './ng-if/ng-if.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TwoWayBindingComponent,
     InterpolationBindingComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    NgIfComponent
   ],
   imports: [
     BrowserModule,
