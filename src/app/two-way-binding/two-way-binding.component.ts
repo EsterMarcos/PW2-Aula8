@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TwoWayBindingComponent implements OnInit {
 
+  nome : string = "Horacio";
+
   constructor() { }
 
   ngOnInit() {

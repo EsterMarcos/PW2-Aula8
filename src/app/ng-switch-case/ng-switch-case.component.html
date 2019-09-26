@@ -1,0 +1,12 @@
+<p>
+  ng-switch-case works!
+</p>
+<h2>[ngSwitch]</h2>
+<div [ngSwitch]="num">
+    <p *ngSwitchCase ="1">Valor é UM</p>
+    <p *ngSwitchCase ="2">Valor é DOIS</p>
+    <p *ngSwitchCase ="3">Valor é TRES</p>
+    <p *ngSwitchCase ="4">Valor é QUATRO</p>
+    <p *ngSwitchDefault>Mensagem Padrão</p>
+</div>
+<button (click) ="inc()">Incrementar</button>
